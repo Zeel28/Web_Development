@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | From</title>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <!-- Box create thse -->
+            <legend>
+                <!-- box in broder ma name lake lu aav se -->
+                <h1>Payment From</h1>
+            </legend>
+
+            <p>
+                First Name : <input type="text" name="first_name"  required> 
+                Last Name : <input type="text" name="last_name" required>
+            </p>
+
+            <p>
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+            
+            <p>
+                Address : <textarea name="address" id="" cols="30" rows="10"></textarea> 
+            </p>
+
+            <p>
+                Phone Number : <input type="number" required>
+            </p>
+
+            <p>Email : <input type="email" required></p>
+
+            <p>
+                Card type :
+                <select name="card_type" id=" card_type" required>
+                    <option value="">-- Select a Card Type</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">RuPay</option>
+                    <option value="master_card">Master_card</option> 
+                </select>
+            </p>
+
+            <p>
+                Card Number 
+                <input type="number" name="card_number" id="card_number required">
+            </p>
+
+            <p>
+                Expiration Date : 
+                <input type="date" name="ex_date" id="ex_date" required>
+            </p>
+
+            <p>CVV <input type="password" name="cvv" id="cvv" required> </p>
+
+            <input type="submit" value="Paynow">
+            <input type="reset" name="" id="">
+        </fieldset>
+    </form>
+</body>
+
+</html>

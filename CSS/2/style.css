@@ -1,0 +1,51 @@
+/* Defined elements behavior */
+li{
+    list-style-type: none;
+}
+
+/* Universal selector */
+*{
+    font-family: 'Segoe UI Regular';
+}
+
+
+/* Type Selector */
+h1{
+    color: red;
+}
+
+/* Class Selector */
+.CS{
+    color: blue;
+    font-size: 350%;
+}
+
+/* Id Selector */
+#Ids{
+    color: blueviolet;
+}
+
+/* Attribute Selector */
+a[href]{
+    color: orange
+    text-decoration   
+}
+
+/* Pseudo-class selectors */
+a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+/* Descendant combinator */
+li em{
+    font-size: 300%;
+}
+h1+p{
+    color: coral;
+}
+
+/* Generate combinator */
+li[class~="a"]{
+    color: lime;
+}

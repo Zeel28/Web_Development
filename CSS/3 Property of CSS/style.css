@@ -1,0 +1,18 @@
+/* Keyword values */
+.keyword{
+    color: red;
+}
+/* <hex-color> values */
+.hex{
+    color: #090;
+}
+.alpha{
+    color: #009900aa;
+}
+/* <rgb()> values */
+.rgb{
+    color: rgb(136, 54, 190);
+}
+.rgba{
+    color: rgba(56, 153, 137, 0.877);
+}

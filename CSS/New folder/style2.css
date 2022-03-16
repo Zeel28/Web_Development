@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th{
+    padding: 10px;
+}
+td{
+    font-size: 17px;
+    font-weight: 600;
+    background: #00203FFF;
+    color: #ADEFD1FF;
+}
+th{
+    background: #FFD55A;
+    color: #143D59;
+}
+th:hover{
+    background-color: #f4b41a;
+    column-rule: #143D59;
+}
+td:hover{
+    background-color: #D7C49EFF;
+    color: #343148FF;
+}
+.main ,th{
+    font-size: 20px;
+}
+

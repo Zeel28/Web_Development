@@ -1,0 +1,22 @@
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 0px;
+    border: 0px;
+    font-size: 100px;
+}
+nav{
+    background-color: white;
+    overflow: hidden;
+    margin: 0px;
+    border: 1px solid red;
+}
+nav a:hover{
+    color: aqua;
+}
+body{
+    background-color: red;
+}

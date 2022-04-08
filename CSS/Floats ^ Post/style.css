@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+    font-family: sans-serif;
+    background: url(1.jpg);
+}
+.page_bro{
+    border: 50px solid rgba(255, 255, 255, 0.164);
+    height: 1122px;
+    margin: 50px 0;
+    background-color: rgb(255, 255, 255);
+}
+.pic{
+    margin: 20px;
+    float: right;
+    width: 200px;
+}
+.logo{
+    margin: 40px 40px;
+    width: 150px;
+
+}
+.main_name{
+    text-transform: uppercase;
+    /* text-align: right; */
+    line-height: 100px;
+    float: center;
+    font-size: 30px;
+}

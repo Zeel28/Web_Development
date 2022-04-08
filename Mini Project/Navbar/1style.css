@@ -9,7 +9,7 @@ header{
 }
 ul,li{
     list-style: none;
-    
+   
 }
 a{
     text-decoration: none;
@@ -23,7 +23,7 @@ nav{
     /* itlem bane baju vai jai */
     align-items: center;
     padding: 20px 0;
-    
+   
 }
 ul{
     display: flex;

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <style>
+        *{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, sans-serif;
+}
+
+/* ---------- Navbar ---------- */
+
+
+:root{
+    --fcolor : #fff;
+    --head: calc(1rem + 1.5vw);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 0 40px;
+    min-height: 12vh;
+    font-size: 1.2em;
+    
+}
+.logo{
+    color: var(--fcolor);
+    font-weight: 100;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 3vh;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--fcolor);
+    padding: 2px 0;
+    position: relative;
+}
+.navbar ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #ee5253;
+    transition: 0.3s linear;
+
+}
+.navbar ul li a:hover:before{
+    width: 100%;
+}
+.navbar ul li a:active{
+    color: #ee5253;
+}
+.register a{
+    text-decoration: none;
+    color: var(--fcolor);
+    background-color: #ee5253;
+    /* margin: 10px; */
+    padding: 8px 15px;
+    border: 2px solid #ee5253;
+    border-radius: 8px;
+}
+.register a:hover{
+    border: 2px solid #ee5253;
+    background-color: transparent;
+    color: #fff;
+}
+
+header{
+    min-height: 100vh;
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),
+                url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+    height: 88vh;
+    color: var(--fcolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--head);
+    
+}
+.hero-text h2{
+    padding: 8px;
+}
+.hero-text .book a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 1.8vh;
+    border-radius: 8px;
+    background-color: #ee5253;
+    border: 2px solid #ee5253;
+    color: var(--fcolor);
+}
+.hero-text .book a:hover{
+    border: 2px solid #ee5253;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ---------- Card ---------- */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding: 50px 10px;
+  }
+  .demo{
+      margin: 20px;
+  }
+
+  /* ---------- Card ---------- */
+
+  input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  } 
+   input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    /* cursor: pointer; */
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+ /* ---------- footer ---------- */
+
+  .cp-text{
+      background-color: #000000;
+      color: #fff;
+      text-align: center;
+  }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Zeel</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="register">
+                <a href="#About">About</a>
+            </div>
+        </nav>
+        <div class="hero-text">
+            <h2>Zeel Bhanderi</h2>
+            <div class="book">
+                <a href="#About">About</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="About">
+        <div class="card">
+            <img src="1.png" alt="John" style="width:100%">
+            <h1>Zeel Bhanderi</h1>
+            <p class="title">Computer Engineering</p>
+            <div class="demo">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email Address" required>
+             
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
+    <footer>
+        <p class="cp-text">
+            © Copyright 2022 Zeel Bhanderi. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>

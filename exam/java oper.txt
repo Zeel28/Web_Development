@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>1: JavaScript Arithmatic Operators</h1>
+    <h4>x = 5, y = 10, z;</h4>
+	<h3>Addition</h3>
+    <p id="p1">x+y=</p>
+	<h3>Subtraction</h3>
+    <p id="p2">y-x=</p>
+	<h3>Multiplication</h3>
+    <p id="p3">x*y=</p>
+	<h3>Division</h3>
+    <p id="p4">y/x=</p>
+    <p id="p5">x%2=</p>
+    <h1>2: JavaScript ++ and -- Operators</h1>
+	<p>x = 5;</p>
+	<p id="p6">x++=</p>
+	<p id="p7">x=</p>
+	<p id="p8">++x=</p>
+	<p id="p9">x--=</p>
+	<p id="p10">x=</p>
+	<p id="p11">--x=</p>
+    <h1>3: JavaScript Comparison Operators</h1>
+	<p>
+		var a = 5, b = 10, c = "5", x = a;
+	</p>
+
+	<p id="p12">a == c returns </p>
+	<p id="p13">a === c returns </p>
+	<p id="p14">a == x returns </p>
+	<p id="p15">a != b returns </p>
+	<p id="p16">a > b returns </p>
+	<p id="p17">a < b returns </p>
+	<p id="p18">a >= b returns </p>
+	<p id="p19">a <= b returns </p>
+	
+
+    <script>
+        var x = 5, y = 10;
+        var z = x + y
+        document.getElementById("p1").innerHTML += z; //returns 15
+
+        z = y - x;
+        document.getElementById("p2").innerHTML += z;
+
+        z = x * y;
+        document.getElementById("p3").innerHTML += z;
+
+        z = y / x;
+        document.getElementById("p4").innerHTML += z;
+
+        z = x % 2;
+        document.getElementById("p5").innerHTML += z;
+        var x = 5;
+
+
+		document.getElementById("p6").innerHTML += x++; 
+		document.getElementById("p7").innerHTML += x;   
+		document.getElementById("p8").innerHTML += ++x; 
+		document.getElementById("p9").innerHTML += x--;
+		document.getElementById("p10").innerHTML += x; 
+		document.getElementById("p11").innerHTML += --x;
+
+        var a = 5, b = 10, c = "5", x = a;
+
+		document.getElementById("p12").innerHTML += a == c;
+
+		document.getElementById("p13").innerHTML += a === c;
+
+		document.getElementById("p14").innerHTML += a == x;
+
+		document.getElementById("p15").innerHTML += a != b;
+
+		document.getElementById("p16").innerHTML += a > b;
+
+		document.getElementById("p17").innerHTML += a < b;
+
+		document.getElementById("p18").innerHTML += a >= b;
+
+		document.getElementById("p19").innerHTML += a <= b;
+    </script>
+</body>
+
+</html>

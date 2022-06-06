@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical - 6</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            width: 100%;
+        }
+        th {
+            background-color: #13131a;
+            color: #ffffff;
+            font-size: larger;
+            font-weight: 100;
+        }
+        td,th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        td {
+            font-size: medium;
+        }
+        tr:nth-child(even) {
+            background-color: #9980FA;
+            color: #ffffff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #0652DD;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Aim: Styling Tables with help of CSS.</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Zeel Bhanderi</td>
+            <td>+91 1234567890</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Fenil Bhanderi</td>
+            <td>+91 1234567890</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Mital Bhanderi</td>
+            <td>+91 1234567890</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Vishal Bhanderi</td>
+            <td>+91 1234567890</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Dhara Bhanderi</td>
+            <td>+91 1234567890</td>
+            <td>Canada</td>
+        </tr>
+    </table>
+</body>
+</html>

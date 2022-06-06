@@ -1,0 +1,73 @@
+
+<!--------------------------- display image and hyperlink ---------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <img src="1.png" alt="C 4 Cakes"> <br> 
+    <a href="https://www.instagram.com/c_4_cakes_/"><img src="instagram.svg" alt="instagram icon" width="30" height="30" target="_black"></a>
+    <a href="https://www.instagram.com/c_4_cakes_/" target="_black"> C 4 Cakes in  instagram</a> 
+
+</body>
+</html>
+
+
+
+<!-------------------------------- List tags -------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1></h1>
+    <hr size="5" color="black" />
+        <ol type ="1">
+            <h1>
+                <li>Order List</li>
+            </h1>
+
+            <ul type ="disc">
+                    <li>Basic</li>
+                    <li>list</li>
+                    <li>Form</li>
+                    <li>table</li>
+            </ul><br>
+            <ul type ="circle">
+                <li>Basic</li>
+                <li>list</li>
+                <li>Form</li>
+                <li>table</li>
+            </ul><br>
+            <ul type ="square">
+                <li>Basic</li>
+                <li>list</li>
+                <li>Form</li>
+                <li>table</li>
+            </ul>
+            <h1>
+            <li>Un Order list</li>
+            </h1>
+            <ol type ="1">
+                    <li>Basic</li>
+                    <li>list</li>
+                    <li>Form</li>
+                    <li>table</li>
+            </ol><br>
+            <ol type ="A">
+                <li>Basic</li>
+                <li>list</li>
+                <li>Form</li>
+                <li>table</li>
+            </ol><br>
+            <ol type ="I">
+                <li>Basic</li>
+                <li>list</li>
+                <li>Form</li>
+                <li>table</li>
+            </ol>
+        </ol>
+  </body>
+</html>

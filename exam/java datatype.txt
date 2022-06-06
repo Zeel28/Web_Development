@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variable</title>
+</head>
+
+<body>
+    <h1>JavaScript Variables</h1>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        var x = 15;
+        var y = 60;
+        var z = x + y;
+        document.getElementById("demo").innerHTML =
+            "The value of z is: " + z;
+
+        let p = 15;
+        let q = 15;
+        let t = p * q;
+        document.getElementById("demo1").innerHTML =
+            "The value of z is: " + t;
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif; 
+}
+header{
+    background: #1e272e;
+}
+ul,li{
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+}
+nav{
+    max-width: 1200px; 
+    /* width % ma kam lage */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* itlem bane baju vai jai */
+    align-items: center;
+    padding: 20px 0;
+   
+}
+ul{
+    display: flex;
+    /* aadu layout inlineblock*/
+
+
+}
+li{
+    margin: 0 10px;
+}
+li a{
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 15px;
+    /* background-color: red; */
+    border-radius: 8px;
+    position: relative;
+    font-size: 20px;
+}
+li a.active::before{
+    transform: scale(1);
+}
+li a::before{
+    content: '';
+    /* css thi text add kari */
+    transform: scale(0);
+    width: 100%;
+    height: 2px;
+    background-color: #25CCF7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s cubic-bezier(.23,.16,.34,.87);
+}
+li a:hover::before{
+    transform: scale(1);
+
+}
+h1{
+    color: #25CCF7;
+}
+h1:hover{
+    color: #fff;
+}

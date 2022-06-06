@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="py-5">
+    <!-- Simple container -->
+    <h1>Simple container</h1>
+    <div class="container panel panel-blue">
+        <h2>Hello! Simple container</h2>
+    </div>
+
+    <!-- Fluid Container  -->
+    <h1>Fluid Container </h1>
+    <div class="contaniner-fluid my-4 panel panel-blue">
+        Hello! I am in a Fluid-width container
+    </div>
+
+    <h1>Main Container </h1>
+    <div class="container zeel">
+        <h3>Single Container(grid)</h3>
+        <div class="row">
+            <div class="col">
+                <div class="panel panel-blue">Hello World</div>
+            </div>
+        </div>
+
+        <h3>Two equal Width Column(grid)</h3>
+        <div class="row">
+            <div class="col">
+                <div class="panel panel-pink">1</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">2</div>
+            </div>
+        </div>
+
+        <h3>Twelve equal Width Column(total grid)</h3>
+        <div class="row">
+            <div class="col">
+                <div class="panel panel-pink">1</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">2</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">3</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">4</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">5</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">6</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">7</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">8</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">9</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">10</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">11</div>
+            </div>
+            <div class="col">
+                <div class="panel panel-pink">12</div>
+            </div>
+        </div>       
+    </div>
+    <h1>Nest Container </h1>
+    <div class="container zeel">
+      <div class="row">
+        <div  class="col-6 panel panel-yellow"> col-6</div>
+        <div  class="col-6 panel panel-yellow"> col-6</div>
+
+        <div  class="col-5 panel panel-yellow"> col-5</div>
+        <div  class="col-7 panel panel-yellow"> col-7</div>
+
+        <div  class="col-3 panel panel-yellow"> col-5</div>
+        <div  class="col-4 panel panel-yellow"> col-7</div>
+
+        <div  class="col-3 panel panel-yellow"> col-3</div>
+        <div  class="col-3 panel panel-yellow"> col-3</div>
+        <div  class="col-3 panel panel-yellow"> col-3</div>
+        <div  class="col-3 panel panel-yellow"> col-3</div>
+      </div>
+    </div>
+
+    <h1>Nest Container </h1>
+    <div class="container zeel">
+      <div class="row">
+        <div class="col-12 panel panel-pink">
+          <div class="row">
+              <div class="col-4 panel panel-yellow">1</div>
+              <div class="col-4 panel panel-yellow">2</div>
+              <div class="col-4 panel panel-yellow">3</div>
+          </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<style>
+    .panel {
+        border-radius: 0.3rem;
+        padding: 1rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .panel.panel-blue {
+        border: 1px solid #0087ff;
+        background-color: #ddedff;
+        color: #0087ff;
+    }
+    .panel.panel-pink {
+        border: 1px solid #f84f7f;
+        background-color: #fad2e1;
+        color: #f84f7f;
+    }
+    .panel.panel-yellow {
+        border: 1px solid #ffbd00;
+        background-color: #fef0b2;
+        color: #ffbd00;
+    }
+    h1{
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    body{
+        background-color: #7853b2;
+    }
+    .zeel{
+      border: 2px solid black;
+    }
+</style>

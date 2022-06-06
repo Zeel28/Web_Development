@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<frameset cols="*,*,*,*">
+   <frame src="../file_path/frame_1.html">
+      <frame src="frame_2.html">
+         <frame src="P -  6.html">
+            <frame src="P -  6.html">
+</frameset>
+
+</html>
